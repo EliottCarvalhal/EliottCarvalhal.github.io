@@ -31,7 +31,7 @@
 	};
 </script>
 
-<div class="pt-16 bg-[#FFF6F7] h-[100vh]">
+<div class="pt-16 bg-[#FFF6F7] min-h-screen">
 	<!-- title -->
 	<div class="flex justify-center py-10">
 		<h1 class="text-3xl text-center">Bemelie & Gnälliott 4ever</h1>
@@ -66,8 +66,7 @@
 	<!-- picture carousel page -->
 	{#if showPictures}
 		<div class="p-20">
-			<!-- why does this component add mt-10 -->
-			<Carousel.Root class="w-full self-center -mt-10">
+			<Carousel.Root class="w-full self-center ">
 				<Carousel.Content>
 					{#each Array(imgs.length) as _, i (i)}
 						<Carousel.Item>
