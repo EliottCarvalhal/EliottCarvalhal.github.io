@@ -59,8 +59,8 @@
 				<Carousel.Content>
 					{#each Array(imgs.length) as _, i (i)}
 						<Carousel.Item>
-							<div class="p-1">
-								<Card.Root class=" sm:min-h-full sm:min-w-full ">
+							<div class="p-1 sm:flex sm:justify-center">
+								<Card.Root class=" sm:h-[30vw] sm:w-[30vh]  ">
 									<Card.Content
 										class="flex aspect-square items-center rounded-l justify-center p-6 bg-red-200 "
 									>
